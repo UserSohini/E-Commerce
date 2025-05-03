@@ -1,0 +1,115 @@
+.navbar {
+  position: fixed;      /* keep navbar at top */
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px  30px;
+  background-color: #524c4ca4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  z-index: 200;
+  overflow: visible;
+}
+
+
+/* Middle section (search + dropdown) */
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 160px;
+
+}
+
+.search-input {
+  padding: 15px ;
+  border: 1px solid #1f1c1c;
+  border-radius: 20px;
+  outline: none;
+  width: 200px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  color: #666;
+  pointer-events: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 105%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  z-index: 500;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding-left: 150px;
+  
+}
+
+.dropdown-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+}
+
+.Clothes{
+  width: 52px;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+
+/* Right side (nav links and cart) */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+  font-size: 18px;
+}
+
+.navbar-right a:hover {
+  font-weight:bolder;
+  transform: translateY(-5px);
+}
+
+.navbar-right a.active{
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-offset: 7px;
+}
+
+.cart-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.details{
+  padding:15px 25px;
+  border-radius: 30px;
+  font-size: large;
+  transition: color 0.2s;
+  cursor: pointer;
+}  
+
+.details:hover{
+  background-color: #007bff;
+}

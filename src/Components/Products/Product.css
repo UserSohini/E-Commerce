@@ -1,0 +1,8 @@
+
+.card-container {
+    padding-left: 200px;
+  }
+.card{
+  display: flex; /* Enable flexbox layout */
+  flex-wrap: wrap;
+}
