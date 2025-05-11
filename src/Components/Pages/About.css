@@ -1,0 +1,103 @@
+.cast{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about-container {
+    max-width: 900px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding-top: 100px;
+    margin: auto;
+  }
+
+  
+.about-section {
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.logo{
+    width: auto;
+    height: 40px;
+}
+
+.about-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.Title{
+  font-weight: bolder;
+  color: rgb(119, 71, 44);
+  font-style: oblique;
+  font-size: larger;
+}
+
+.about-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
+}
+
+.promises{
+  display: flex;
+  padding: 1% 10%;
+}
+
+.benefits{
+  max-width: 230px;
+  height: 200px;
+  margin-right: 50px;
+  align-items: center;
+  border: 2px solid #5c5353;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;   /* Or use space-between / space-around / flex-start */
+  align-items: center;                /* Creates space between images */
+  padding: 10px;
+}
+
+.image-icon {
+  width: 120px;               /* Adjust size as needed */
+  height: 130px;
+  object-fit: contain;
+  padding-left: 20px;
+}
+
+.image-icon:hover {
+  transform: scale(1.1);     /* Optional: zoom effect on hover */
+}
+
+@media screen and (max-width: 425px) {
+
+  .about-container{
+    padding-top: 150px;
+  }
+  
+  .promises{
+    display: contents;
+    padding: 1% 0;
+  }
+  .benefits{
+    max-width: 150px;
+    margin-right: 10px;
+  }
+
+  .image-row{
+    display: contents;
+  }
+}

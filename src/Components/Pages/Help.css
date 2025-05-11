@@ -1,0 +1,65 @@
+.help-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.help-container h1 {
+  padding-top: 80px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+.help-section {
+  margin-bottom: 2rem;
+}
+
+.help-section h2 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.help-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.help-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.faq-list li {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#sect{
+    background-color: #a17a7a;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .help-container h1{
+    padding-top: 100px;
+  }
+}
